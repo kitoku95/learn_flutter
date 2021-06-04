@@ -5,7 +5,7 @@ class TextBlockWidget extends StatelessWidget{
   final String text;
   final bool isAsk;
 
-  const TextBlockWidget({Key key, this.text, this.isAsk}) : super(key: key);
+  const TextBlockWidget({required Key key, required this.text, required this.isAsk}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
